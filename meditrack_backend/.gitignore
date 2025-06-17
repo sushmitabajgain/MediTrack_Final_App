@@ -1,0 +1,46 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django environment
+env/
+venv/
+ENV/
+.venv/
+
+# Django DB files
+*.sqlite3  
+
+# Django migration files (optional to ignore)
+**/migrations/
+
+# Logs and local files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.cache/
+
+# mypy and test cache
+.mypy_cache/
+
+# Celery (if using)
+celerybeat-schedule
+
+# System files
+.DS_Store
+Thumbs.db
